@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Douddi magasin - TP2</string>
+    <string name="tv_titre">Le Douddi magasin</string>
+    <string name="btn_voirArticles">Voir notre Merch</string>
+
+    <string name="tv_titreList">La Duddi merch</string>
+    <string name="btn_commanderMerch">Commander ce Merch</string>
+
+    <string name="tv_prix">Prix</string>
+    <string name="tv_categorie">Catégorie</string>
+    <string name="tv_description">Description</string>
+    <string name="toast_commander">SVP choisir une Merch à acheter</string>
+
+
+    <string name="et_nom">Nom</string>
+    <string name="et_prenom">Prénom</string>
+    <string name="et_adresse">Adresse</string>
+    <string name="et_telephone">Téléphone</string>
+    <string name="btn_acheterMerch">Acheter le Merch</string>
+    <string name="chk_terms">J\'accept les termes</string>
+    <string name="chk_notif">Je souhaite être notifier par sms</string>
+    <string name="toast_acheterMerch">Votre Merch à été acheté avec succès!</string>
+    <string name="toast_case_vide">Veuillez remplir les cases d\'informations</string>
+    <string name="toast_cocherTerms">Veuillez accepter les termes de la compagnie</string>
+
+
+
+</resources>

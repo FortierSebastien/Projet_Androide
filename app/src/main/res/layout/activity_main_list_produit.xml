@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/tv_titreList"
+        android:textColor="@color/colorRed"
+        android:textSize="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@android:id/list"
+        android:name="com.example.douddishop.ListMenuFragment"
+        android:layout_marginLeft="10dp"
+        android:layout_width="422dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="10dp"
+        tools:layout="@layout/fragment_list_menu" />
+
+    <fragment
+        android:id="@+id/fragmentDetail"
+        android:layout_marginTop="10dp"
+        android:name="com.example.douddishop.DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        tools:layout="@layout/fragment_detail" />
+
+</LinearLayout>
+
